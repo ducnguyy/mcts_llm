@@ -1,0 +1,392 @@
+=== Evaluation started: Tue Apr  7 06:15:24 PM CEST 2026 ===
+=== Node: juliet2 ===
+=== Ollama server: juliet2:11434 ===
+=== Testing connection to Ollama... ===
+=== Ollama server reachable ===
+=== Python: /home/minguyen/mcts_llm/mcts_env/bin/python ===
+=== Running evaluation... ===
+
+======================================================================
+TASK: math (30 instances)
+======================================================================
+
+  Instance: #0
+  ------------------------------------------------------------
+    Running Single-shot... ✗ ext=0.00 | model=0.72 | calls=1 | 8.5s
+    Running Best-of-4... ✓ ext=1.00 | model=0.94 | calls=8 | 44.38s
+    Running SelfRefine-4... ✗ ext=0.00 | model=0.72 | calls=14 | 121.29s
+    Running MCTSr... ✓ ext=1.00 | model=0.83 | calls=35 | 188.64s
+    Running UCT... ✗ ext=0.00 | model=0.83 | calls=26 | 177.76s
+    Running NMCS-1... ✓ ext=1.00 | model=0.83 | calls=11 | 57.82s
+    Running NRPA-1... ✗ ext=0.00 | model=0.83 | calls=8 | 47.32s
+    Running SH... ✓ ext=1.00 | model=0.94 | calls=17 | 95.31s
+    Running PUCT... ✗ ext=0.00 | model=0.83 | calls=26 | 194.72s
+
+  Instance: #1
+  ------------------------------------------------------------
+    Running Single-shot... ✓ ext=1.00 | model=0.83 | calls=1 | 5.64s
+    Running Best-of-4... ✓ ext=1.00 | model=0.72 | calls=8 | 48.55s
+    Running SelfRefine-4... ✓ ext=1.00 | model=0.83 | calls=14 | 96.51s
+    Running MCTSr... ✓ ext=1.00 | model=0.83 | calls=35 | 221.92s
+    Running UCT... ✓ ext=1.00 | model=0.83 | calls=26 | 180.22s
+    Running NMCS-1... ✓ ext=1.00 | model=0.83 | calls=11 | 74.11s
+    Running NRPA-1... ✓ ext=1.00 | model=0.72 | calls=8 | 46.62s
+    Running SH... ✓ ext=1.00 | model=0.94 | calls=17 | 102.17s
+    Running PUCT... ✓ ext=1.00 | model=0.94 | calls=26 | 172.77s
+
+  Instance: #2
+  ------------------------------------------------------------
+    Running Single-shot... ✓ ext=1.00 | model=0.94 | calls=1 | 4.12s
+    Running Best-of-4... ✓ ext=1.00 | model=0.89 | calls=8 | 30.51s
+    Running SelfRefine-4... ✓ ext=1.00 | model=0.94 | calls=14 | 64.92s
+    Running MCTSr... ✓ ext=1.00 | model=0.83 | calls=35 | 142.54s
+    Running UCT... ✓ ext=1.00 | model=0.94 | calls=26 | 102.77s
+    Running NMCS-1... ✓ ext=1.00 | model=0.94 | calls=11 | 50.05s
+    Running NRPA-1... ✓ ext=1.00 | model=0.94 | calls=8 | 29.92s
+    Running SH... ✓ ext=1.00 | model=0.94 | calls=17 | 62.94s
+    Running PUCT... ✓ ext=1.00 | model=0.94 | calls=26 | 123.56s
+
+  Instance: #3
+  ------------------------------------------------------------
+    Running Single-shot... ✓ ext=1.00 | model=0.72 | calls=1 | 6.43s
+    Running Best-of-4... ✗ ext=0.00 | model=0.72 | calls=8 | 45.48s
+    Running SelfRefine-4... ✓ ext=1.00 | model=0.83 | calls=14 | 82.87s
+    Running MCTSr... ✓ ext=1.00 | model=0.33 | calls=35 | 192.77s
+    Running UCT... ✓ ext=1.00 | model=0.83 | calls=26 | 153.6s
+    Running NMCS-1... ✓ ext=1.00 | model=0.83 | calls=11 | 65.95s
+    Running NRPA-1... ✓ ext=1.00 | model=0.83 | calls=8 | 46.53s
+    Running SH... ✓ ext=1.00 | model=0.83 | calls=17 | 99.83s
+    Running PUCT... ✓ ext=1.00 | model=0.83 | calls=26 | 145.06s
+
+  Instance: #4
+  ------------------------------------------------------------
+    Running Single-shot... ✓ ext=1.00 | model=0.83 | calls=1 | 6.68s
+    Running Best-of-4... ✓ ext=1.00 | model=0.72 | calls=8 | 34.7s
+    Running SelfRefine-4... ✓ ext=1.00 | model=0.83 | calls=14 | 83.89s
+    Running MCTSr... ✓ ext=1.00 | model=0.83 | calls=35 | 201.72s
+    Running UCT... ✓ ext=1.00 | model=0.83 | calls=26 | 150.51s
+    Running NMCS-1... ✓ ext=1.00 | model=0.83 | calls=11 | 64.59s
+    Running NRPA-1... ✓ ext=1.00 | model=0.83 | calls=8 | 38.25s
+    Running SH... ✓ ext=1.00 | model=0.83 | calls=17 | 97.5s
+    Running PUCT... ✓ ext=1.00 | model=0.83 | calls=26 | 163.05s
+
+  Instance: #5
+  ------------------------------------------------------------
+    Running Single-shot... ✓ ext=1.00 | model=0.83 | calls=1 | 3.46s
+    Running Best-of-4... ✗ ext=0.00 | model=0.89 | calls=8 | 25.93s
+    Running SelfRefine-4... ✗ ext=0.00 | model=0.83 | calls=14 | 67.11s
+    Running MCTSr... ✓ ext=1.00 | model=0.83 | calls=35 | 128.56s
+    Running UCT... ✓ ext=1.00 | model=0.83 | calls=26 | 111.11s
+    Running NMCS-1... ✗ ext=0.00 | model=0.83 | calls=11 | 42.59s
+    Running NRPA-1... ✗ ext=0.00 | model=0.83 | calls=8 | 27.68s
+    Running SH... ✗ ext=0.00 | model=0.83 | calls=17 | 67.87s
+    Running PUCT... ✓ ext=1.00 | model=0.83 | calls=26 | 115.66s
+
+  Instance: #6
+  ------------------------------------------------------------
+    Running Single-shot... ✓ ext=1.00 | model=0.94 | calls=1 | 3.63s
+    Running Best-of-4... ✓ ext=1.00 | model=0.83 | calls=8 | 39.64s
+    Running SelfRefine-4... ✓ ext=1.00 | model=0.83 | calls=14 | 89.45s
+    Running MCTSr... ✓ ext=1.00 | model=1.00 | calls=35 | 233.22s
+    Running UCT... ✓ ext=1.00 | model=0.83 | calls=26 | 193.25s
+    Running NMCS-1... ✗ ext=0.00 | model=0.83 | calls=11 | 60.76s
+    Running NRPA-1... ✓ ext=1.00 | model=0.91 | calls=8 | 37.06s
+    Running SH... ✓ ext=1.00 | model=0.83 | calls=17 | 99.94s
+    Running PUCT... ✓ ext=1.00 | model=0.83 | calls=26 | 150.58s
+
+  Instance: #7
+  ------------------------------------------------------------
+    Running Single-shot... ✗ ext=0.00 | model=0.83 | calls=1 | 5.61s
+    Running Best-of-4... ✗ ext=0.00 | model=0.94 | calls=8 | 38.83s
+    Running SelfRefine-4... ✗ ext=0.00 | model=0.91 | calls=14 | 83.61s
+    Running MCTSr... ✗ ext=0.00 | model=0.83 | calls=35 | 187.8s
+    Running UCT... ✗ ext=0.00 | model=0.83 | calls=26 | 160.99s
+    Running NMCS-1... ✗ ext=0.00 | model=0.83 | calls=11 | 67.18s
+    Running NRPA-1... ✗ ext=0.00 | model=0.83 | calls=8 | 38.33s
+    Running SH... ✗ ext=0.00 | model=0.89 | calls=17 | 100.7s
+    Running PUCT... ✗ ext=0.00 | model=0.83 | calls=26 | 171.47s
+
+  Instance: #8
+  ------------------------------------------------------------
+    Running Single-shot... ✗ ext=0.00 | model=0.44 | calls=1 | 12.31s
+    Running Best-of-4... ✗ ext=0.00 | model=0.72 | calls=8 | 72.25s
+    Running SelfRefine-4... ✗ ext=0.00 | model=0.11 | calls=14 | 153.61s
+    Running MCTSr... ✗ ext=0.00 | model=0.76 | calls=35 | 305.91s
+    Running UCT... ✗ ext=0.00 | model=0.22 | calls=26 | 273.11s
+    Running NMCS-1... ✗ ext=0.00 | model=0.35 | calls=11 | 115.02s
+    Running NRPA-1... ✗ ext=0.00 | model=0.61 | calls=8 | 78.76s
+    Running SH... ✗ ext=0.00 | model=0.11 | calls=17 | 183.6s
+    Running PUCT... ✗ ext=0.00 | model=0.72 | calls=26 | 275.17s
+
+  Instance: #9
+  ------------------------------------------------------------
+    Running Single-shot... ✗ ext=0.00 | model=0.33 | calls=1 | 8.27s
+    Running Best-of-4... ✗ ext=0.00 | model=0.72 | calls=8 | 59.84s
+    Running SelfRefine-4... ✗ ext=0.00 | model=0.67 | calls=14 | 109.68s
+    Running MCTSr... ✗ ext=0.00 | model=0.72 | calls=35 | 239.84s
+    Running UCT... ✓ ext=1.00 | model=0.67 | calls=26 | 228.55s
+    Running NMCS-1... ✗ ext=0.00 | model=0.72 | calls=11 | 96.07s
+    Running NRPA-1... ✓ ext=1.00 | model=0.72 | calls=8 | 59.84s
+    Running SH... ✓ ext=1.00 | model=0.72 | calls=17 | 145.27s
+    Running PUCT... ✗ ext=0.00 | model=0.83 | calls=26 | 189.86s
+
+  Instance: #10
+  ------------------------------------------------------------
+    Running Single-shot... ✗ ext=0.00 | model=1.00 | calls=1 | 6.93s
+    Running Best-of-4... ✓ ext=1.00 | model=0.83 | calls=8 | 40.87s
+    Running SelfRefine-4... ✓ ext=1.00 | model=0.83 | calls=14 | 104.76s
+    Running MCTSr... ✓ ext=1.00 | model=0.83 | calls=35 | 198.91s
+    Running UCT... ✓ ext=1.00 | model=0.83 | calls=26 | 156.43s
+    Running NMCS-1... ✓ ext=1.00 | model=0.83 | calls=11 | 91.71s
+    Running NRPA-1... ✓ ext=1.00 | model=0.83 | calls=8 | 47.21s
+    Running SH... ✗ ext=0.00 | model=0.83 | calls=17 | 97.48s
+    Running PUCT... ✓ ext=1.00 | model=0.83 | calls=26 | 169.28s
+
+  Instance: #11
+  ------------------------------------------------------------
+    Running Single-shot... ✓ ext=1.00 | model=0.89 | calls=1 | 4.12s
+    Running Best-of-4... ✓ ext=1.00 | model=0.94 | calls=8 | 26.75s
+    Running SelfRefine-4... ✓ ext=1.00 | model=0.94 | calls=14 | 65.87s
+    Running MCTSr... ✓ ext=1.00 | model=0.83 | calls=35 | 143.76s
+    Running UCT... ✓ ext=1.00 | model=0.94 | calls=26 | 124.81s
+    Running NMCS-1... ✓ ext=1.00 | model=0.91 | calls=11 | 44.64s
+    Running NRPA-1... ✓ ext=1.00 | model=0.89 | calls=8 | 31.54s
+    Running SH... ✓ ext=1.00 | model=0.94 | calls=17 | 70.01s
+    Running PUCT... ✓ ext=1.00 | model=0.91 | calls=26 | 106.99s
+
+  Instance: #12
+  ------------------------------------------------------------
+    Running Single-shot... ✓ ext=1.00 | model=0.72 | calls=1 | 10.64s
+    Running Best-of-4... ✗ ext=0.00 | model=0.83 | calls=8 | 53.58s
+    Running SelfRefine-4... ✗ ext=0.00 | model=0.67 | calls=14 | 142.42s
+    Running MCTSr... ✓ ext=1.00 | model=0.72 | calls=35 | 257.74s
+    Running UCT... ✗ ext=0.00 | model=0.72 | calls=26 | 159.13s
+    Running NMCS-1... ✗ ext=0.00 | model=0.44 | calls=11 | 104.71s
+    Running NRPA-1... ✓ ext=1.00 | model=0.83 | calls=8 | 52.83s
+    Running SH... ✗ ext=0.00 | model=0.83 | calls=17 | 108.69s
+    Running PUCT... ✗ ext=0.00 | model=0.83 | calls=26 | 156.28s
+
+  Instance: #13
+  ------------------------------------------------------------
+    Running Single-shot... ✗ ext=0.00 | model=0.50 | calls=1 | 10.06s
+    Running Best-of-4... ✓ ext=1.00 | model=0.67 | calls=8 | 56.46s
+    Running SelfRefine-4... ✓ ext=1.00 | model=0.89 | calls=14 | 90.38s
+    Running MCTSr... ✗ ext=0.00 | model=0.83 | calls=35 | 266.73s
+    Running UCT... ✓ ext=1.00 | model=0.83 | calls=26 | 186.53s
+    Running NMCS-1... ✗ ext=0.00 | model=0.72 | calls=11 | 71.31s
+    Running NRPA-1... ✓ ext=1.00 | model=0.56 | calls=8 | 61.83s
+    Running SH... ✓ ext=1.00 | model=0.83 | calls=17 | 132.55s
+    Running PUCT... ✓ ext=1.00 | model=0.67 | calls=26 | 179.15s
+
+  Instance: #14
+  ------------------------------------------------------------
+    Running Single-shot... ✗ ext=0.00 | model=0.72 | calls=1 | 9.39s
+    Running Best-of-4... ✗ ext=0.00 | model=0.83 | calls=8 | 59.11s
+    Running SelfRefine-4... ✗ ext=0.00 | model=0.78 | calls=14 | 101.75s
+    Running MCTSr... ✗ ext=0.00 | model=0.72 | calls=35 | 227.56s
+    Running UCT... ✗ ext=0.00 | model=0.83 | calls=26 | 205.52s
+    Running NMCS-1... ✗ ext=0.00 | model=0.72 | calls=11 | 94.92s
+    Running NRPA-1... ✗ ext=0.00 | model=0.83 | calls=8 | 57.68s
+    Running SH... ✗ ext=0.00 | model=0.72 | calls=17 | 142.42s
+    Running PUCT... ✗ ext=0.00 | model=0.83 | calls=26 | 237.42s
+
+  Instance: #15
+  ------------------------------------------------------------
+    Running Single-shot... ✓ ext=1.00 | model=0.83 | calls=1 | 5.26s
+    Running Best-of-4... ✓ ext=1.00 | model=0.83 | calls=8 | 31.46s
+    Running SelfRefine-4... ✓ ext=1.00 | model=0.94 | calls=14 | 85.01s
+    Running MCTSr... ✓ ext=1.00 | model=0.94 | calls=35 | 176.57s
+    Running UCT... ✓ ext=1.00 | model=0.83 | calls=26 | 145.86s
+    Running NMCS-1... ✓ ext=1.00 | model=0.72 | calls=11 | 53.0s
+    Running NRPA-1... ✓ ext=1.00 | model=0.94 | calls=8 | 31.14s
+    Running SH... ✓ ext=1.00 | model=0.89 | calls=17 | 86.64s
+    Running PUCT... ✓ ext=1.00 | model=0.83 | calls=26 | 140.66s
+
+  Instance: #16
+  ------------------------------------------------------------
+    Running Single-shot... ✗ ext=0.00 | model=0.72 | calls=1 | 7.58s
+    Running Best-of-4... ✓ ext=1.00 | model=0.39 | calls=8 | 51.46s
+    Running SelfRefine-4... ✗ ext=0.00 | model=0.56 | calls=14 | 84.54s
+    Running MCTSr... ✓ ext=1.00 | model=0.72 | calls=35 | 204.8s
+    Running UCT... ✓ ext=1.00 | model=0.72 | calls=26 | 163.17s
+    Running NMCS-1... ✗ ext=0.00 | model=1.00 | calls=11 | 74.78s
+    Running NRPA-1... ✓ ext=1.00 | model=0.67 | calls=8 | 50.28s
+    Running SH... ✗ ext=0.00 | model=0.72 | calls=17 | 116.1s
+    Running PUCT... ✗ ext=0.00 | model=0.83 | calls=26 | 168.37s
+
+  Instance: #17
+  ------------------------------------------------------------
+    Running Single-shot... ✗ ext=0.00 | model=0.83 | calls=1 | 10.82s
+    Running Best-of-4... ✗ ext=0.00 | model=0.83 | calls=8 | 62.99s
+    Running SelfRefine-4... ✗ ext=0.00 | model=0.83 | calls=14 | 120.32s
+    Running MCTSr... ✗ ext=0.00 | model=0.72 | calls=35 | 279.93s
+    Running UCT... ✗ ext=0.00 | model=0.83 | calls=26 | 246.56s
+    Running NMCS-1... ✗ ext=0.00 | model=0.80 | calls=11 | 100.4s
+    Running NRPA-1... ✗ ext=0.00 | model=0.89 | calls=8 | 61.69s
+    Running SH... ✗ ext=0.00 | model=0.83 | calls=17 | 138.78s
+    Running PUCT... ✗ ext=0.00 | model=0.94 | calls=26 | 241.27s
+
+  Instance: #18
+  ------------------------------------------------------------
+    Running Single-shot... ✗ ext=0.00 | model=0.56 | calls=1 | 12.28s
+    Running Best-of-4... ✗ ext=0.00 | model=0.00 | calls=8 | 56.55s
+    Running SelfRefine-4... ✗ ext=0.00 | model=0.72 | calls=14 | 132.99s
+    Running MCTSr... ✗ ext=0.00 | model=0.83 | calls=35 | 244.27s
+    Running UCT... ✗ ext=0.00 | model=0.72 | calls=26 | 267.06s
+    Running NMCS-1... ✗ ext=0.00 | model=0.39 | calls=11 | 111.12s
+    Running NRPA-1... ✗ ext=0.00 | model=0.56 | calls=8 | 71.78s
+    Running SH... ✓ ext=1.00 | model=0.67 | calls=17 | 166.18s
+    Running PUCT... ✗ ext=0.00 | model=0.61 | calls=26 | 258.49s
+
+  Instance: #19
+  ------------------------------------------------------------
+    Running Single-shot... ✓ ext=1.00 | model=0.94 | calls=1 | 5.19s
+    Running Best-of-4... ✓ ext=1.00 | model=0.94 | calls=8 | 33.05s
+    Running SelfRefine-4... ✓ ext=1.00 | model=0.94 | calls=14 | 82.52s
+    Running MCTSr... ✓ ext=1.00 | model=0.94 | calls=35 | 155.26s
+    Running UCT... ✓ ext=1.00 | model=0.94 | calls=26 | 130.91s
+    Running NMCS-1... ✓ ext=1.00 | model=0.83 | calls=11 | 55.66s
+    Running NRPA-1... ✓ ext=1.00 | model=0.94 | calls=8 | 29.46s
+    Running SH... ✓ ext=1.00 | model=0.94 | calls=17 | 86.3s
+    Running PUCT... ✗ ext=0.00 | model=0.94 | calls=26 | 140.1s
+
+  Instance: #20
+  ------------------------------------------------------------
+    Running Single-shot... ✗ ext=0.00 | model=0.11 | calls=1 | 12.22s
+    Running Best-of-4... ✓ ext=1.00 | model=0.72 | calls=8 | 72.47s
+    Running SelfRefine-4... ✓ ext=1.00 | model=0.83 | calls=14 | 132.51s
+    Running MCTSr... ✗ ext=0.00 | model=0.11 | calls=35 | 333.04s
+    Running UCT... ✓ ext=1.00 | model=0.72 | calls=26 | 225.22s
+    Running NMCS-1... ✓ ext=1.00 | model=0.83 | calls=11 | 101.32s
+    Running NRPA-1... ✓ ext=1.00 | model=0.72 | calls=8 | 54.04s
+    Running SH... ✗ ext=0.00 | model=0.83 | calls=17 | 165.5s
+    Running PUCT... ✓ ext=1.00 | model=0.72 | calls=26 | 246.5s
+
+  Instance: #21
+  ------------------------------------------------------------
+    Running Single-shot... ✗ ext=0.00 | model=0.33 | calls=1 | 12.37s
+    Running Best-of-4... ✗ ext=0.00 | model=0.61 | calls=8 | 64.14s
+    Running SelfRefine-4... ✗ ext=0.00 | model=0.72 | calls=14 | 141.96s
+    Running MCTSr... ✗ ext=0.00 | model=0.83 | calls=35 | 277.4s
+    Running UCT... ✗ ext=0.00 | model=0.83 | calls=26 | 271.59s
+    Running NMCS-1... ✗ ext=0.00 | model=0.44 | calls=11 | 117.49s
+    Running NRPA-1... ✗ ext=0.00 | model=0.28 | calls=8 | 67.13s
+    Running SH... ✗ ext=0.00 | model=0.72 | calls=17 | 158.52s
+    Running PUCT... ✗ ext=0.00 | model=0.56 | calls=26 | 267.49s
+
+  Instance: #22
+  ------------------------------------------------------------
+    Running Single-shot... ✓ ext=1.00 | model=0.83 | calls=1 | 4.12s
+    Running Best-of-4... ✓ ext=1.00 | model=0.83 | calls=8 | 30.04s
+    Running SelfRefine-4... ✓ ext=1.00 | model=0.94 | calls=14 | 79.43s
+    Running MCTSr... ✓ ext=1.00 | model=0.83 | calls=35 | 156.62s
+    Running UCT... ✓ ext=1.00 | model=0.94 | calls=26 | 125.53s
+    Running NMCS-1... ✓ ext=1.00 | model=0.83 | calls=11 | 59.46s
+    Running NRPA-1... ✓ ext=1.00 | model=0.83 | calls=8 | 25.62s
+    Running SH... ✓ ext=1.00 | model=0.94 | calls=17 | 74.04s
+    Running PUCT... ✓ ext=1.00 | model=0.83 | calls=26 | 125.59s
+
+  Instance: #23
+  ------------------------------------------------------------
+    Running Single-shot... ✓ ext=1.00 | model=0.78 | calls=1 | 11.8s
+    Running Best-of-4... ✗ ext=0.00 | model=0.83 | calls=8 | 71.67s
+    Running SelfRefine-4... ✓ ext=1.00 | model=0.72 | calls=14 | 138.02s
+    Running MCTSr... ✗ ext=0.00 | model=0.72 | calls=35 | 362.88s
+    Running UCT... ✓ ext=1.00 | model=0.83 | calls=26 | 227.31s
+    Running NMCS-1... ✗ ext=0.00 | model=0.83 | calls=11 | 98.87s
+    Running NRPA-1... ✓ ext=1.00 | model=0.72 | calls=8 | 58.71s
+    Running SH... ✗ ext=0.00 | model=0.72 | calls=17 | 150.06s
+    Running PUCT... ✓ ext=1.00 | model=0.83 | calls=26 | 213.61s
+
+  Instance: #24
+  ------------------------------------------------------------
+    Running Single-shot... ✗ ext=0.00 | model=0.50 | calls=1 | 10.5s
+    Running Best-of-4... ✗ ext=0.00 | model=0.72 | calls=8 | 63.61s
+    Running SelfRefine-4... ✗ ext=0.00 | model=0.72 | calls=14 | 127.02s
+    Running MCTSr... ✗ ext=0.00 | model=0.78 | calls=35 | 304.45s
+    Running UCT... ✗ ext=0.00 | model=0.61 | calls=26 | 245.74s
+    Running NMCS-1... ✗ ext=0.00 | model=0.44 | calls=11 | 117.92s
+    Running NRPA-1... ✗ ext=0.00 | model=0.67 | calls=8 | 62.73s
+    Running SH... ✗ ext=0.00 | model=0.72 | calls=17 | 151.76s
+    Running PUCT... ✗ ext=0.00 | model=0.72 | calls=26 | 274.61s
+
+  Instance: #25
+  ------------------------------------------------------------
+    Running Single-shot... ✗ ext=0.00 | model=0.56 | calls=1 | 11.74s
+    Running Best-of-4... ✗ ext=0.00 | model=0.61 | calls=8 | 60.89s
+    Running SelfRefine-4... ✗ ext=0.00 | model=0.83 | calls=14 | 98.55s
+    Running MCTSr... ✗ ext=0.00 | model=0.61 | calls=35 | 268.58s
+    Running UCT... ✗ ext=0.00 | model=0.57 | calls=26 | 237.41s
+    Running NMCS-1... ✗ ext=0.00 | model=0.61 | calls=11 | 75.11s
+    Running NRPA-1... ✗ ext=0.00 | model=0.72 | calls=8 | 50.46s
+    Running SH... ✗ ext=0.00 | model=0.72 | calls=17 | 135.29s
+    Running PUCT... ✗ ext=0.00 | model=0.94 | calls=26 | 181.52s
+
+  Instance: #26
+  ------------------------------------------------------------
+    Running Single-shot... ✗ ext=0.00 | model=0.72 | calls=1 | 8.84s
+    Running Best-of-4... ✗ ext=0.00 | model=0.83 | calls=8 | 58.69s
+    Running SelfRefine-4... ✗ ext=0.00 | model=0.83 | calls=14 | 104.56s
+    Running MCTSr... ✗ ext=0.00 | model=0.83 | calls=35 | 234.09s
+    Running UCT... ✗ ext=0.00 | model=0.78 | calls=26 | 193.53s
+    Running NMCS-1... ✗ ext=0.00 | model=0.78 | calls=11 | 88.65s
+    Running NRPA-1... ✗ ext=0.00 | model=0.83 | calls=8 | 55.02s
+    Running SH... ✗ ext=0.00 | model=0.83 | calls=17 | 135.97s
+    Running PUCT... ✗ ext=0.00 | model=0.83 | calls=26 | 180.87s
+
+  Instance: #27
+  ------------------------------------------------------------
+    Running Single-shot... ✗ ext=0.00 | model=0.17 | calls=1 | 10.25s
+    Running Best-of-4... ✗ ext=0.00 | model=0.67 | calls=8 | 57.3s
+    Running SelfRefine-4... ✗ ext=0.00 | model=0.72 | calls=14 | 93.16s
+    Running MCTSr... ✗ ext=0.00 | model=0.67 | calls=35 | 309.19s
+    Running UCT... ✗ ext=0.00 | model=0.00 | calls=? | 57.62s
+    Running NMCS-1... ✗ ext=0.00 | model=0.00 | calls=? | 1.37s
+    Running NRPA-1... ✗ ext=0.00 | model=0.00 | calls=? | 1.29s
+    Running SH... ✗ ext=0.00 | model=0.00 | calls=? | 1.39s
+    Running PUCT... ✗ ext=0.00 | model=0.00 | calls=? | 1.17s
+
+  Instance: #28
+  ------------------------------------------------------------
+    Running Single-shot... ✗ ext=0.00 | model=0.00 | calls=? | 1.38s
+    Running Best-of-4... ✗ ext=0.00 | model=0.00 | calls=? | 1.34s
+    Running SelfRefine-4... ✗ ext=0.00 | model=0.00 | calls=? | 1.33s
+    Running MCTSr... ✗ ext=0.00 | model=0.00 | calls=? | 1.36s
+    Running UCT... ✗ ext=0.00 | model=0.00 | calls=? | 1.38s
+    Running NMCS-1... ✗ ext=0.00 | model=0.00 | calls=? | 1.19s
+    Running NRPA-1... ✗ ext=0.00 | model=0.00 | calls=? | 1.38s
+    Running SH... ✗ ext=0.00 | model=0.00 | calls=? | 1.38s
+    Running PUCT... ✗ ext=0.00 | model=0.00 | calls=? | 1.33s
+
+  Instance: #29
+  ------------------------------------------------------------
+    Running Single-shot... ✗ ext=0.00 | model=0.00 | calls=? | 1.26s
+    Running Best-of-4... ✗ ext=0.00 | model=0.00 | calls=? | 1.2s
+    Running SelfRefine-4... ✗ ext=0.00 | model=0.00 | calls=? | 1.36s
+    Running MCTSr... ✗ ext=0.00 | model=0.00 | calls=? | 1.18s
+    Running UCT... ✗ ext=0.00 | model=0.00 | calls=? | 1.27s
+    Running NMCS-1... ✗ ext=0.00 | model=0.00 | calls=? | 1.27s
+    Running NRPA-1... ✗ ext=0.00 | model=0.00 | calls=? | 1.31s
+    Running SH... ✗ ext=0.00 | model=0.00 | calls=? | 1.27s
+    Running PUCT... ✗ ext=0.00 | model=0.00 | calls=? | 1.29s
+
+Results saved to results_mctsr.json
+
+======================================================================
+SUMMARY
+======================================================================
+
+--- Task: math ---
+Algorithm        Type       AvgExt  AvgModel  Sat.Rate  Avg Calls   Avg Time
+---------------------------------------------------------------------------
+Single-shot      baseline    0.400     0.639      40%          1       7.7s
+Best-of-4        baseline    0.433     0.702      43%          7      46.5s
+SelfRefine-4     baseline    0.433     0.732      43%         13      96.0s
+MCTSr            paper       0.467     0.710      47%         33     214.9s
+UCT              course      0.533     0.706      53%         23     170.1s
+NMCS-1           course      0.367     0.667      37%         10      72.0s
+NRPA-1           course      0.533     0.693      53%          7      44.1s
+SH               course      0.433     0.720      43%         15     105.8s
+PUCT             course      0.433     0.738      43%         23     166.5s
+=== Evaluation finished: Wed Apr  8 02:14:45 AM CEST 2026 ===
+=== Results saved to results_mctsr.json ===
